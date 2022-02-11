@@ -1,0 +1,35 @@
+{
+  "name": "vaktija",
+  "version": "1.0.0",
+  "description": "Vaktija za Bosnu i Hercegovinu i Sandzak",
+  "main": "index.js",
+  "keywords": [
+    "vaktija",
+    "namaska vremena",
+    "IZ",
+    "iz",
+    "bih",
+    "bosna",
+    "hercegovina",
+    "sandžak",
+    "sabah",
+    "zora",
+    "izlazak sunca",
+    "podne",
+    "ikindija",
+    "akšam",
+    "jacija",
+    "salat",
+    "džuma",
+    "sehur",
+    "ramazan",
+    "iftar",
+    "teravija",
+    "takvim"
+  ],
+  "author": "Kenan Maslesa",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
