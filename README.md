@@ -1,6 +1,6 @@
 # Vaktija
 
-Namaska vremena za Bosnu i Hercegovinu i Sandzak.
+Namaska vremena za Bosnu i Hercegovinu i Sandzak (IZ).
 
 ## Installation
 
