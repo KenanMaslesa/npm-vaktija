@@ -5,8 +5,8 @@ Namaska vremena za Bosnu i Hercegovinu i Sandzak (IZ).
 ## Installation
 
 ```sh
-npm install vaktija
-const vaktija = require('vaktija');
+npm install @kmaslesa/vaktija
+const vaktija = require('@kmaslesa/vaktija');
 ```
 ```sh
 vaktija.getDailyPrayerTimes(locationId, year?, month?, day?)
