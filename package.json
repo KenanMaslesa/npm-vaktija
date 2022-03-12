@@ -1,6 +1,6 @@
 {
   "name": "@kmaslesa/vaktija",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Vaktija za Bosnu i Hercegovinu i Sandzak (IZ)",
   "main": "index.js",
   "keywords": [
@@ -25,7 +25,9 @@
     "ramazan",
     "iftar",
     "teravija",
-    "takvim"
+    "takvim",
+    "polovina noći",
+    "zadnja trećina noći"
   ],
   "author": "Kenan Maslesa",
   "license": "ISC",
