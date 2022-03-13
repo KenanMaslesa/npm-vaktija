@@ -1,5 +1,6 @@
 const data = require("./data");
 const api = require("./api");
+const cities = require("./locations.json");
 
 const locations = data.locations;
 const currentYear = new Date().getFullYear();
@@ -145,7 +146,12 @@ function midleNightAndlastThirdOrMidnight(number, fajr, magrib) {
 
 }
 
+function getLocations() {
+  return cities;
+}
+
 module.exports = {
+  getLocations,
   getDailyPrayerTimes,
   getMonthlyPrayerTimes,
   getYearlyPrayerTimes,

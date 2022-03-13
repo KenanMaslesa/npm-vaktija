@@ -9,132 +9,227 @@ npm install @kmaslesa/vaktija
 const vaktija = require('@kmaslesa/vaktija');
 ```
 ```sh
+vaktija.getLocations()
 vaktija.getDailyPrayerTimes(locationId, year?, month?, day?)
 vaktija.getMonthlyPrayerTimes(locationId, year?, month?)
 vaktija.getYearlyPrayerTimes(locationId, year?)
 ```
-Location Ids:
+
+getLocations:
 ```sh
-0. Banovići
-1. Banja Luka
-2. Bihać
-3. Bijeljina
-4. Bileća
-5. Bosanski Brod
-6. Bosanska Dubica
-7. Bosanska Gradiška
-8. Bosansko Grahovo
-9. Bosanska Krupa
-10. Bosanski Novi
-11. Bosanski Petrovac
-12. Bosanski Šamac
-13. Bratunac
-14. Brčko
-15. Breza
-16. Bugojno
-17. Busovača
-18. Bužim
-19. Cazin
-20. Čajniče
-21. Čapljina
-22. Čelić
-23. Čelinac
-24. Čitluk
-25. Derventa
-26. Doboj
-27. Donji Vakuf
-28. Drvar
-29. Foča
-30. Fojnica
-31. Gacko
-32. Glamoč
-33. Goražde
-34. Gornji Vakuf
-35. Gračanica
-36. Gradačac
-37. Grude
-38. Hadžići
-39. Han-Pijesak
-40. Hlivno
-41. Ilijaš
-42. Jablanica
-43. Jajce
-44. Kakanj
-45. Kalesija
-46. Kalinovik
-47. Kiseljak
-48. Kladanj
-49. Ključ
-50. Konjic
-51. Kotor-Varoš
-52. Kreševo
-53. Kupres
-54. Laktaši
-55. Lopare
-56. Lukavac
-57. Ljubinje
-58. Ljubuški
-59. Maglaj
-60. Modriča
-61. Mostar
-62. Mrkonjić-Grad
-63. Neum
-64. Nevesinje
-65. Novi Travnik
-66. Odžak
-67. Olovo
-68. Orašje
-69. Pale
-70. Posušje
-71. Prijedor
-72. Prnjavor
-73. Prozor
-74. Rogatica
-75. Rudo
-76. Sanski Most
-77. Sarajevo
-78. Skender-Vakuf
-79. Sokolac
-80. Srbac
-81. Srebrenica
-82. Srebrenik
-83. Stolac
-84. Šekovići
-85. Šipovo
-86. Široki Brijeg
-87. Teslić
-88. Tešanj
-89. Tomislav-Grad
-90. Travnik
-91. Trebinje
-92. Trnovo
-93. Tuzla
-94. Ugljevik
-95. Vareš
-96. Velika Kladuša
-97. Visoko
-98. Višegrad
-99. Vitez
-100. Vlasenica
-101. Zavidovići
-102. Zenica
-103. Zvornik
-104. Žepa
-105. Žepče
-106. Živinice
-107. Bijelo Polje
-108. Gusinje
-109. Nova Varoš
-110. Novi Pazar
-111. Plav
-112. Pljevlja
-113. Priboj
-114. Prijepolje
-115. Rožaje
-116. Sjenica
-117. Tutin
+vaktija.getLocations()
 ```
 
+RESPONSE:
+```sh
+[
+	{
+		"name":"Banovići",
+		"locationId":0,
+		"latitude":44.40417,
+		"longitude":18.4475
+	},
+	{
+		"name":"Banja Luka",
+		"locationId":1,
+		"latitude":44.7667,
+		"longitude":17.1833
+	},
+	{
+		"name":"Bihać",
+		"locationId":2,
+		"latitude":44.8167,
+		"longitude":15.8667
+	},
+	{
+		"name":"Bijeljina",
+		"locationId":3,
+		"latitude":44.75,
+		"longitude":19.2167
+	},
+	{
+		"name":"Bileća",
+		"locationId":4,
+		"latitude":42.86667,
+		"longitude":18.43333
+	},
+	{
+		"name":"Bosanski Brod",
+		"locationId":5,
+		"latitude":45.13333,
+		"longitude":17.98333
+	},
+	{
+		"name":"Bosanska Dubica",
+		"locationId":6,
+		"latitude":45.17667,
+		"longitude":16.80944
+	},
+	{
+		"name":"Bosanska Gradiška",
+		"locationId":7,
+		"latitude":45.14484,
+		"longitude":17.25453
+	},
+	{
+		"name":"Bosansko Grahovo",
+		"locationId":8,
+		"latitude":44.19667,
+		"longitude":16.37667
+	},
+	{
+		"name":"Bosanska Krupa",
+		"locationId":9,
+		"latitude":44.8833,
+		"longitude":16.15
+	},
+	{
+		"name":"Bosanski Novi",
+		"locationId":10,
+		"latitude":45.05,
+		"longitude":16.38333
+	},
+	{
+		"name":"Bosanski Petrovac",
+		"locationId":11,
+		"latitude":44.55,
+		"longitude":16.3667
+	},
+	{
+		"name":"Bosanski Šamac",
+		"locationId":12,
+		"latitude":45.06667,
+		"longitude":18.46667
+	},
+	{
+		"name":"Bratunac",
+		"locationId":13,
+		"latitude":44.1846,
+		"longitude":19.3309
+	},
+	{
+		"name":"Brčko",
+		"locationId":14,
+		"latitude":44.8783,
+		"longitude":18.8092
+	},
+	{
+		"name":"Breza",
+		"locationId":15,
+		"latitude":44.021,
+		"longitude":18.261
+	},
+	{
+		"name":"Bugojno",
+		"locationId":16,
+		"latitude":44.0572,
+		"longitude":17.4508
+	},
+	{
+		"name":"Busovača",
+		"locationId":17,
+		"latitude":44.1,
+		"longitude":17.88333
+	},
+	{
+		"name":"Bužim",
+		"locationId":18,
+		"latitude":45.06056,
+		"longitude":16.01667
+	},
+	{
+		"name":"Cazin",
+		"locationId":19,
+		"latitude":44.96667,
+		"longitude":15.93333
+	},
+	{
+		"name":"Čajniče",
+		"locationId":20,
+		"latitude":43.55,
+		"longitude":19.16667
+	},
+	{
+		"name":"Čapljina",
+		"locationId":21,
+		"latitude":43.11,
+		"longitude":17.7
+	},
+	{
+		"name":"Čelić",
+		"locationId":22,
+		"latitude":44.721,
+		"longitude":18.8231
+	},
+	{
+		"name":"Čelinac",
+		"locationId":23,
+		"latitude":44.725,
+		"longitude":17.33
+	},
+	{
+		"name":"Čitluk",
+		"locationId":24,
+		"latitude":43.23,
+		"longitude":17.7
+	},
+	{
+		"name":"Derventa",
+		"locationId":25,
+		"latitude":44.98,
+		"longitude":17.91
+	},
+	{
+		"name":"Doboj",
+		"locationId":26,
+		"latitude":44.73333,
+		"longitude":18.13333
+	},
+	{
+		"name":"Donji Vakuf",
+		"locationId":27,
+		"latitude":44.15,
+		"longitude":17.4
+	},
+	{
+		"name":"Drvar",
+		"locationId":28,
+		"latitude":44.3575,
+		"longitude":16.3711
+	},
+	{
+		"name":"Foča",
+		"locationId":29,
+		"latitude":43.5,
+		"longitude":18.78333
+	},
+	{
+		"name":"Fojnica",
+		"locationId":30,
+		"latitude":43.96667,
+		"longitude":17.9
+	},
+	{
+		"name":"Gacko",
+		"locationId":31,
+		"latitude":43.16667,
+		"longitude":18.53333
+	},
+	{
+		"name":"Glamoč",
+		"locationId":32,
+		"latitude":44.05,
+		"longitude":16.85
+	},
+	{
+		"name":"Goražde",
+		"locationId":33,
+		"latitude":43.66667,
+		"longitude":18.97778
+	}
+	....
+	]
+```
 
 
 getDailyPrayerTimes:

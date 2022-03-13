@@ -1,6 +1,6 @@
 {
   "name": "@kmaslesa/vaktija",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vaktija za Bosnu i Hercegovinu i Sandzak (IZ)",
   "main": "index.js",
   "keywords": [
